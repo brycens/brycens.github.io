@@ -1,0 +1,12 @@
+Origin: Brycen's Repository
+Label: Brycen's Repository
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: A home for some of my favorite tweaks, some by me and some by others.
+
+SHA256:
+ 98215dbfd2b7cdedfe89c680ded2f2425d576814c4e97ec19aaea1811929154c 882 Packages.bz2
+ 233b5d3f8f9ee238691eef0f2937bd4008d78cd79f2c3264f51054892300f815 832 Packages.xz
