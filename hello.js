@@ -232,7 +232,7 @@
     function onResize() {
       X = canvas.width = window.innerWidth;
       Y = canvas.height = window.innerHeight;
-      moons[0].render();
+      moons[0].resize();
       for (var i = 0; i < particles.length; i++) {
         particles[i].resize();
       }
@@ -266,7 +266,7 @@
     });
 
     window.addEventListener('touchstart', function(e) {
-      var touch = event.targetTouches[0];
+      var touch = e.targetTouches[0];
       mouseX = touch.pageX;
       mouseY = touch.pageY;
       clearId = setInterval(function() {
